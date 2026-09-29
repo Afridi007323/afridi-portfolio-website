@@ -7,7 +7,9 @@
 
     <title>Afridi Ansari | Full Stack Developer</title>
 
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
+   <link rel="stylesheet"
+      href="<?= base_url('assets/css/style.cssv=2.css') ?>">
+    
 
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -386,7 +388,7 @@
             <!-- GITHUB -->
             <a
                 class="btn-nav github-link"
-                href="https://github.com/"
+                href="https://github.com/Afridi007323?tab=repositories"
                 target="_blank"
                 rel="noopener"
                 aria-label="GitHub"

@@ -1,4 +1,4 @@
-```php
+
 <?php $this->load->view('layout/header'); ?>
 
 <style>
@@ -530,4 +530,4 @@
 
 
 <?php $this->load->view('layout/footer'); ?>
-```
+

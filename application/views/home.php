@@ -2616,64 +2616,75 @@
 
 
         <!-- PROJECT 2 -->
-        <div class="project-card">
+       <!-- PROJECT 2 -->
+<div class="project-card">
 
-            <div class="project-image">
-                <div class="project-image-content">
-                    <i class="fa-solid fa-building"></i>
-                </div>
+    <div class="project-image">
+        <div class="project-image-content">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </div>
 
-                <span class="project-status">
-                    Completed
-                </span>
-            </div>
-
-
-            <div class="project-content">
-
-                <div class="project-category">
-                    ERP / MANAGEMENT
-                </div>
-
-                <h3>
-                    ERP Management System
-                </h3>
-
-                <p>
-                    Business management system designed to manage
-                    users, roles, records, reports and day-to-day
-                    organizational operations.
-                </p>
+        <span class="project-status">
+            Completed
+        </span>
+    </div>
 
 
-                <div class="project-tech">
-                    <span>PHP</span>
-                    <span>CodeIgniter</span>
-                    <span>MySQL</span>
-                    <span>jQuery</span>
-                    <span>Bootstrap</span>
-                </div>
+    <div class="project-content">
+
+        <div class="project-category">
+            FEES MANAGEMENT / ERP
+        </div>
+
+        <h3>
+            Student Fee Management ERP
+        </h3>
+
+        <p>
+            A role-based school fee management ERP designed to manage
+            students, classes, fee collection, payment history, receipts,
+            reports and administrative operations through separate
+            Admin and Student portals.
+        </p>
 
 
-                <div class="project-buttons">
+        <div class="project-tech">
+            <span>PHP</span>
+            <span>Laravel</span>
+            <span>MySQL</span>
+            <span>Blade</span>
+            <span>Tailwind CSS</span>
+            <span>Razorpay</span>
+        </div>
 
-                    <a href="#" class="project-btn primary">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
 
-                    <a href="https://github.com/"
-                       target="_blank"
-                       class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
+        <div class="project-buttons">
+<a href="<?= base_url('Home/fee_erp') ?>"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="project-btn primary">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+    Live Demo
+</a>
 
-                </div>
 
-            </div>
+            <a href="https://github.com/Afridi007323/fees-erp-system-laravel" target="_blank" class="project-btn">
+    <i class="fa-brands fa-github"></i> GitHub
+</a>
+
+            <!-- <a href="<?= base_url('assets/promo-video.mp4.mp4') ?>"
+               class="project-btn"
+               target="_blank"
+               rel="noopener noreferrer">
+                <i class="fa-solid fa-play"></i>
+                Video Demo
+            </a> -->
 
         </div>
+
+    </div>
+
+</div>
 
 
         <!-- PROJECT 3 -->

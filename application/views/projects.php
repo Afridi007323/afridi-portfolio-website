@@ -463,57 +463,64 @@
 
 
         <!-- =====================================
-             PROJECT 2
-        ====================================== -->
+     PROJECT 2 - STUDENT FEE ERP
+====================================== -->
 
-        <div class="project-card">
+<div class="project-card">
 
-            <div class="project-top">
+    <div class="project-top">
 
-                <div class="project-icon">
-                    <i class="fa-solid fa-building"></i>
-                </div>
-
-                <span class="project-number">
-                    02
-                </span>
-
-            </div>
-
-            <span class="project-category">
-                ERP SYSTEM
-            </span>
-
-            <h3>
-                ERP Management System
-            </h3>
-
-            <p>
-                A business management system for handling company
-                resources, employee attendance and automated GST
-                billing reports.
-            </p>
-
-            <div class="project-tech">
-
-                <span>CodeIgniter 3</span>
-                <span>PHP</span>
-                <span>jQuery</span>
-                <span>Ajax</span>
-
-            </div>
-
-            <div class="project-actions">
-
-                <a href="#" class="project-btn primary">
-                    <i class="fa-solid fa-eye"></i>
-                    View Details
-                </a>
-
-            </div>
-
+        <div class="project-icon">
+            <i class="fa-solid fa-graduation-cap"></i>
         </div>
 
+        <span class="project-number">
+            02
+        </span>
+
+    </div>
+
+    <span class="project-category">
+        FEES MANAGEMENT / ERP
+    </span>
+
+    <h3>
+        Student Fee Management ERP
+    </h3>
+
+    <p>
+        A role-based school fee management ERP for managing
+        students, classes, fee collection, payment history,
+        receipts and administrative reports with separate
+        Admin and Student portals.
+    </p>
+
+    <div class="project-tech">
+
+        <span>Laravel</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>Blade</span>
+        <span>Tailwind CSS</span>
+        <span>JavaScript</span>
+
+    </div>
+
+    <div class="project-actions">
+
+        <a href="<?= site_url('home/fee_erp'); ?>" class="project-btn primary">
+    <i class="fa-solid fa-eye"></i>
+    View Details
+</a>
+
+        <a href="#" class="project-btn">
+            <i class="fa-solid fa-credit-card"></i>
+            Razorpay Demo
+        </a>
+
+    </div>
+
+</div>
 
         <!-- =====================================
              PROJECT 3

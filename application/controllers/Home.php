@@ -25,4 +25,9 @@ class Home extends CI_Controller {
         $this->load->view('resume');
         $this->load->view('layout/footer');
     }
+
+    public function fee_erp()
+{
+    $this->load->view('project-fee-erp');
+}
 }

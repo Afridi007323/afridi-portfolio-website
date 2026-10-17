@@ -30,4 +30,13 @@ class Home extends CI_Controller {
 {
     $this->load->view('project-fee-erp');
 }
+
+
+public function tiles_management_details()
+{
+    $this->load->view('layout/header');
+    $this->load->view('tiles_management_details');
+    $this->load->view('layout/footer');
+}
+
 }

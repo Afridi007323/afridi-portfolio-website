@@ -404,62 +404,84 @@
     <div class="projects-grid">
 
 
-        <!-- =====================================
-             PROJECT 1
-        ====================================== -->
+       
+<!-- =====================================
+     PROJECT 1
+====================================== -->
 
-        <div class="project-card">
+<!-- TILES MANAGEMENT SYSTEM -->
+<div class="project-card">
 
-            <div class="project-top">
+    <div class="project-top">
 
-                <div class="project-icon">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
-
-                <span class="project-number">
-                    01
-                </span>
-
-            </div>
-
-            <span class="project-category">
-                E-COMMERCE
-            </span>
-
-            <h3>
-                E-Commerce Web App
-            </h3>
-
-            <p>
-                A full-stack e-commerce platform with cart management,
-                user authentication and Razorpay payment gateway
-                integration.
-            </p>
-
-            <div class="project-tech">
-
-                <span>Laravel</span>
-                <span>MySQL</span>
-                <span>Razorpay</span>
-                <span>Bootstrap 5</span>
-
-            </div>
-
-            <div class="project-actions">
-
-                <a href="#" class="project-btn primary">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                    Live Demo
-                </a>
-
-                <a href="#" class="project-btn">
-                    <i class="fa-brands fa-github"></i>
-                    GitHub
-                </a>
-
-            </div>
-
+        <div class="project-icon">
+            <i class="fa-solid fa-boxes-stacked"></i>
         </div>
+
+        <span class="project-number">01</span>
+
+    </div>
+
+    <span class="project-category">
+        ERP / INVENTORY / BILLING
+    </span>
+
+    <h3>Tiles Management System</h3>
+
+    <p>
+        A complete business management solution for tile and
+        marble shops to manage inventory, customer records,
+        sales invoices, payments, outstanding dues and reports
+        through a centralized dashboard.
+    </p>
+
+    <div class="project-tech">
+        <span>PHP</span>
+        <span>CodeIgniter 3</span>
+        <span>MySQL</span>
+        <span>Bootstrap</span>
+        <span>JavaScript</span>
+    </div>
+
+    <div class="project-actions">
+
+        <!-- LIVE DEMO -->
+        <a href="https://tiles-erp.lovestoblog.com/Auth"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-btn primary">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            Live Demo
+        </a>
+
+        <!-- GITHUB -->
+        <a href="https://github.com/YOUR-USERNAME/YOUR-REPOSITORY"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-btn">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+
+        <!-- PROJECT DETAILS PAGE -->
+        <a href="<?= site_url('home/tiles_management_details') ?>"
+           class="project-btn">
+            <i class="fa-solid fa-circle-info"></i>
+            View Details
+        </a>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+        
 
 
         <!-- =====================================
@@ -531,7 +553,7 @@
             <div class="project-top">
 
                 <div class="project-icon">
-                    <i class="fa-solid fa-boxes-stacked"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
                 </div>
 
                 <span class="project-number">
@@ -541,33 +563,38 @@
             </div>
 
             <span class="project-category">
-                BUSINESS / INVENTORY
+                E-COMMERCE
             </span>
 
             <h3>
-                Business Management & Inventory System
+                E-Commerce Web App
             </h3>
 
             <p>
-                Business management application for managing products,
-                inventory, sales records and daily business operations
-                through a centralized system.
+                A full-stack e-commerce platform with cart management,
+                user authentication and Razorpay payment gateway
+                integration.
             </p>
 
             <div class="project-tech">
 
-                <span>PHP</span>
-                <span>CodeIgniter</span>
+                <span>Laravel</span>
                 <span>MySQL</span>
-                <span>Bootstrap</span>
+                <span>Razorpay</span>
+                <span>Bootstrap 5</span>
 
             </div>
 
             <div class="project-actions">
 
                 <a href="#" class="project-btn primary">
-                    <i class="fa-solid fa-eye"></i>
-                    View Details
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    Live Demo
+                </a>
+
+                <a href="#" class="project-btn">
+                    <i class="fa-brands fa-github"></i>
+                    GitHub
                 </a>
 
             </div>

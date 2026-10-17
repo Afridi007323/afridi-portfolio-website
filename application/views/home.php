@@ -2554,68 +2554,88 @@
 
     <div class="projects-grid">
 
-        <!-- PROJECT 1 -->
-        <div class="project-card">
+       
+<!-- project 1 TILES MANAGEMENT SYSTEM PROJECT -->
+<div class="project-card">
 
-            <div class="project-image">
-                <div class="project-image-content">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </div>
+    <div class="project-image tiles-project-image">
+        <div class="project-image-content">
+            <i class="fa-solid fa-layer-group"></i>
+        </div>
 
-                <span class="project-status">
-                    Completed
-                </span>
-            </div>
+        <span class="project-status">Completed</span>
+        <span class="project-image-label">TILES ERP SYSTEM</span>
+    </div>
 
+    <div class="project-content">
 
-            <div class="project-content">
+        <div class="project-category">
+            ERP / INVENTORY / BILLING
+        </div>
 
-                <div class="project-category">
-                    E-COMMERCE
-                </div>
+        <h3>Tiles Management System</h3>
 
-                <h3>
-                    E-Commerce Management System
-                </h3>
+        <p>
+            A complete business management solution for tile and
+            marble shops to manage inventory, customer records,
+            sales invoices, payments, outstanding dues and reports
+            through a centralized dashboard.
+        </p>
 
-                <p>
-                    Full-stack e-commerce application with product
-                    management, shopping cart, wishlist, orders,
-                    billing and admin panel.
-                </p>
+        <div class="project-tech">
+            <span>PHP</span>
+            <span>CodeIgniter 3</span>
+            <span>MySQL</span>
+            <span>Bootstrap</span>
+            <span>JavaScript</span>
+        </div>
 
+        <div class="project-buttons">
 
-                <div class="project-tech">
-                    <span>PHP</span>
-                    <span>CodeIgniter</span>
-                    <span>MySQL</span>
-                    <span>Bootstrap</span>
-                    <span>JavaScript</span>
-                </div>
+            <!-- LIVE DEMO -->
+            <a href="https://tiles-erp.lovestoblog.com/index.php/login"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="project-btn primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                Live Demo
+            </a>
 
+            <!-- GITHUB REPOSITORY -->
+            <a href="https://github.com/YOUR-USERNAME/YOUR-TILES-REPO"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="project-btn">
+                <i class="fa-brands fa-github"></i>
+                GitHub
+            </a>
 
-                <div class="project-buttons">
-
-                    <a href="#" class="project-btn primary">
-                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                        Live Demo
-                    </a>
-
-                    <a href="https://github.com/"
-                       target="_blank"
-                       class="project-btn">
-                        <i class="fa-brands fa-github"></i>
-                        GitHub
-                    </a>
-
-                </div>
-
-            </div>
+            <!-- PROJECT DETAILS -->
+            <a href="<?= site_url('home/tiles_management_details') ?>"
+               class="project-btn">
+                <i class="fa-solid fa-circle-info"></i>
+                Project Details
+            </a>
 
         </div>
 
+    </div>
 
-        <!-- PROJECT 2 -->
+</div>
+
+
+
+
+
+
+
+
+
+
+        
+
+
+        
        <!-- PROJECT 2 -->
 <div class="project-card">
 
@@ -2754,61 +2774,66 @@
 
 
         <!-- PROJECT 4 -->
-<div class="project-card">
 
-    <div class="project-image">
-        <div class="project-image-content">
-            <i class="fa-solid fa-boxes-stacked"></i>
+        <div class="project-card">
+
+            <div class="project-image">
+                <div class="project-image-content">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+
+                <span class="project-status">
+                    Completed
+                </span>
+            </div>
+
+
+            <div class="project-content">
+
+                <div class="project-category">
+                    E-COMMERCE
+                </div>
+
+                <h3>
+                    E-Commerce Management System
+                </h3>
+
+                <p>
+                    Full-stack e-commerce application with product
+                    management, shopping cart, wishlist, orders,
+                    billing and admin panel.
+                </p>
+
+
+                <div class="project-tech">
+                    <span>PHP</span>
+                    <span>CodeIgniter</span>
+                    <span>MySQL</span>
+                    <span>Bootstrap</span>
+                    <span>JavaScript</span>
+                </div>
+
+
+                <div class="project-buttons">
+
+                    <a href="#" class="project-btn primary">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Live Demo
+                    </a>
+
+                    <a href="https://github.com/"
+                       target="_blank"
+                       class="project-btn">
+                        <i class="fa-brands fa-github"></i>
+                        GitHub
+                    </a>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <span class="project-status">
-            Completed
-        </span>
-    </div>
-
-    <div class="project-content">
-
-        <div class="project-category">
-            BUSINESS / INVENTORY
-        </div>
-
-        <h3>
-            Business Management & Inventory System
-        </h3>
-
-        <p>
-            Business management system for managing products,
-            inventory, sales, records and day-to-day business
-            operations through a centralized dashboard.
-        </p>
-
-        <div class="project-tech">
-            <span>PHP</span>
-            <span>CodeIgniter</span>
-            <span>MySQL</span>
-            <span>Bootstrap</span>
-            <span>JavaScript</span>
-        </div>
-
-        <div class="project-buttons">
-
-            <a href="#" class="project-btn primary">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Live Demo
-            </a>
-
-            <a href="https://github.com/"
-               target="_blank"
-               class="project-btn">
-                <i class="fa-brands fa-github"></i>
-                GitHub
-            </a>
-
-        </div>
-
-    </div>
-
-</div>
 
 
 <!-- PROJECT 5 -->
